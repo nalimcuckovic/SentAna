@@ -1,0 +1,74 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %> 
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Senitiment Analyzer</title>
+
+    <link href="Izgled.css" rel="stylesheet" type="text/css" />
+
+      <script src="lightbox/js/jquery-1.10.2.min.js" type="text/javascript"></script>
+    
+    <script src="lightbox/js/lightbox-2.6.min.js" type="text/javascript"></script>   
+
+    <link href="lightbox/css/lightbox.css" rel="stylesheet" type="text/css" />
+    
+     <style type="text/css">
+       
+       #Meni1
+       {
+            text-align: center;
+       }     
+       
+       .style4
+       {
+           text-align:right;           
+       }      
+   </style>
+
+
+</head>
+<body>
+    <form id="form1" runat="server">
+          <asp:ToolkitScriptManager ID="tsm1" runat="server"></asp:ToolkitScriptManager>
+
+          <center>
+     <table>
+        <tr >
+            <td>
+                 
+              <div class="headerK" >
+             
+                <img id="hedic" src="SLIKE/HeaderImage1.jpg"/>
+                  <br />
+                  <center>
+                 <asp:Button ID="btnLexicon" runat="server" Text="Lexicon" Width="200px" Height="41px" BorderColor="#ffffcc"  BorderWidth="2" BackColor="#0000ff"
+                     ForeColor="#ffffff" Font-Bold="True" Font-Size="15pt" OnClick="btnLexicon_Click"/>
+
+                  &nbsp;  &nbsp;  &nbsp;
+                 <asp:Button ID="btnCalculation" runat="server" Text="Calculation" Width="200px" Height="41px" BorderColor="#ffffcc"  BorderWidth="2" BackColor="#006600"
+                     ForeColor="#ffffff" Font-Bold="True" Font-Size="15pt" OnClick="btnCalculation_Click"/>
+                      </center>
+
+                 
+                </div>
+                 
+            </td>
+        
+        </tr>
+    
+    </table>
+    
+
+         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server"> 
+                 </asp:ContentPlaceHolder>
+
+
+
+          </center>
+    </form>
+</body>
+</html>

@@ -1,0 +1,333 @@
+﻿body {  
+    font-size: large;
+    background-image: url('');
+    background-color:black;
+    color:white;
+
+}
+
+ 
+.hederK
+{
+    background-image: url('SLIKE/pozadina_ZNS.jpg');
+    background-repeat:no-repeat;
+    background-size: 100%;
+    height:180px;      
+    display:block;
+    margin:auto;
+}
+
+.futer
+{
+    background-image: url('SLIKE/futer1.jpg');
+    background-repeat:no-repeat; 
+    height:330px; 
+    width:1250px;
+    font-family:NK66;
+    font-size:40px;
+    padding-left:10px;
+    padding-right:20px;
+}
+
+.ceo
+{
+    width:950px;
+    vertical-align: top;
+    font-size:16pt;
+    font-family:Georgia;
+    text-align:left;
+    font-family: KovanovicPoluPis;
+}
+
+.levo
+{
+     width:210px;    
+    vertical-align:top;
+}
+
+ 
+
+.centar
+{
+    width:700px; 
+    font-family:Georgia;   
+    vertical-align: top;
+}
+
+.sir900
+{
+    width:900px; 
+    font-family:Georgia;   
+    vertical-align: top;
+}
+
+.sir840
+{
+    width:840px; 
+    font-family:Georgia;   
+    vertical-align: top;
+}
+
+.desno
+{
+    width:210px;    
+    vertical-align:top;
+    text-align:right;    
+}
+.sirina260
+{
+     width:280px;    
+    vertical-align:top;
+    text-align:left;
+    font-family:Georgia;
+}
+
+
+.Greska
+{
+    font-weight:bold;
+    color:Red;
+    font-size:16px;
+}
+
+.skrol
+{
+    width:700px;
+    height:350px;
+    overflow:scroll;
+}
+
+.skrol700x1900
+{
+    width:700px;
+    height:1900px;
+    overflow-y:scroll;
+    border:solid White;
+    border-bottom-width:1px;
+    border-left-width:1px;
+    border-top-width:1px; 
+}
+
+.skrol1000
+{
+    width:1000px;
+    height:500px;
+    overflow:scroll;
+}
+
+.skrol800
+{
+    width:800px;
+    height:600px;
+    overflow:scroll;
+}
+
+.kalendari
+{
+    background-color:Black;
+    color:White;
+}
+
+.kontejner
+{    
+    background-color:Black;
+    font-size:16px;
+    font-family:Georgia;
+    overflow:scroll;
+       
+}
+
+.vest
+{    
+    color: White;
+    padding: 5px 5px 5px 5px;    
+}
+
+ 
+.naslov
+{
+    font-size: 20px;
+    font-weight:bold; 
+    text-decoration: none;
+    color:White;  
+}
+
+.naslovMali
+{
+    font-size: 12px;
+    font-weight:bold; 
+    text-decoration: none; 
+    color:#2103d5;  
+}
+
+.sadrzaj
+{
+    color: White;
+    padding: 5px 5px 5px 5px;
+}
+
+.dugmence
+{
+    background-image:url('SLIKE/dugmeDetaljnije.jpg');
+}
+
+
+.f-nav
+{
+    z-index: 9999; position: fixed;  top: 0; width: 97%;
+}
+
+.Korisnik
+{
+    font-weight:bold;
+    font-size:22px;
+    color:yellow;
+}
+
+.hederGrid
+{
+    width:764px; 
+    color:White; 
+    height:25px;
+    font-size:18px;
+    font-weight:bold;
+    
+}
+
+.deo350
+{
+    width:360px;
+    text-align:center;
+    vertical-align:text-top;
+    font-family:Georgia;
+}
+
+.poseta
+{
+    
+    color:#fdfdff; 
+    width:220px;
+    font-family:Georgia;
+    font-weight:bold;
+    font-size:14pt;
+    padding:6px 6px  6px 6px;
+}
+
+.PrikazDatuma
+{
+    display:none;
+    border-width:3px;
+    padding:5px;
+    background-color:White;    
+}
+
+.pad
+{
+    padding-top:4px;
+}
+
+
+.sir20
+{
+    width:20%;
+    background-color:Black;
+    float:left;
+    height:100%;
+    color:White;
+}
+.sir80
+{
+    width:80%;
+    float:right;
+}
+
+
+.modalPopupConfirm
+{
+    background-color:Snow;
+    width: 300px;
+    border: 3px solid #0DA9D0;
+}
+
+.modalPopupConfirm .header
+{
+    background-color:Red;
+    height: 30px;
+    color: White;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+    width: 300px;
+}
+
+.modalPopupConfirm .body
+{
+    min-height: 68px;
+    line-height: 30px;
+    font-weight: bold;
+    color:Black;
+}
+
+.modalPopupConfirm .footer
+{
+    padding: 3px;
+}
+
+.modalPopupConfirm .yes, .modalPopup .no
+{
+    height: 23px;
+    color: White;
+    line-height: 23px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modalPopupConfirm .yes
+{
+    background-color: Green;
+    border: 1px solid #0DA9D0;
+}
+
+.modalPopupConfirm .no
+{
+    background-color:Blue;
+    border: 1px solid #5C5C5C;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
